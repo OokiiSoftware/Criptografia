@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Blend for Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Criptografia", "Criptografia\Criptografia.csproj", "{B9AC9D5D-16E3-4598-B846-26275E0DA906}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9AC9D5D-16E3-4598-B846-26275E0DA906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9AC9D5D-16E3-4598-B846-26275E0DA906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9AC9D5D-16E3-4598-B846-26275E0DA906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9AC9D5D-16E3-4598-B846-26275E0DA906}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E90C17CF-4A4C-41B5-AFF8-DD54B31DC5AF}
+	EndGlobalSection
+EndGlobal
