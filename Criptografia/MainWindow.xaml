@@ -1,0 +1,22 @@
+﻿<Window x:Class="Criptografia.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Criptografia"
+        mc:Ignorable="d"
+        Title="Criptografia" Height="320" Width="500" MinWidth="500" MinHeight="320">
+    <Grid>
+        <Button x:Name="btn_encript" Content="Criptografar" HorizontalAlignment="Left" Height="24.66" Margin="67,90.06,0,0" VerticalAlignment="Top" Width="148" Click="Btn_encript_Click"/>
+        <Button x:Name="btn_NovaCriptografia" Content="Gerar Nova Criptografia" Height="21.66" Margin="10,0,0,6" VerticalAlignment="Bottom" Click="Btn_NovaCriptografia_Click" HorizontalAlignment="Left" Width="183.57"/>
+        <Button x:Name="btn_decript" Content="Descriptografar" Height="24.66" Margin="0,90.06,10,0" VerticalAlignment="Top" Click="Btn_decript_Click" HorizontalAlignment="Right" Width="148"/>
+
+        <TextBox x:Name="tb_entrada" Height="75.06" Margin="67,10,10,0" VerticalAlignment="Top" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Visible"/>
+        <TextBox x:Name="tb_saida_encript" Margin="10,150.66,10,32.66" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Visible"/>
+
+        <Label x:Name="label" Content="Saida" Height="21" Margin="10,124.66,0,0" VerticalAlignment="Top" Padding="5,0" HorizontalAlignment="Left" Width="52"/>
+        <Label x:Name="label2" Content="Entrada" HorizontalAlignment="Left" Height="21" Margin="10,10,0,0" VerticalAlignment="Top" Width="52" Padding="5,0,5,5"/>
+        <ProgressBar x:Name="progressBar" Height="21.66" Margin="198.57,0,0,6" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="84"/>
+        <Button x:Name="btn_Cancelar" Content="Cancelar" HorizontalAlignment="Right" Height="21.66" Margin="0,0,10,6" VerticalAlignment="Bottom" Width="87" Click="Btn_Cancelar_Click" Visibility="Hidden"/>
+    </Grid>
+</Window>
